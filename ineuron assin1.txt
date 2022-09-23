@@ -1,0 +1,52 @@
+Q1. What is the purpose of Python's OOP?
+
+Ans. In Python,OOPs is a programming paradigram that uses objects and classes in programming.
+     It aims to implement real-world entities like inheritance,polymorphisms,encapsulation,etc. in
+     the programming
+
+
+Q2. Where does an inheritance search look for an attribute?
+
+Ans. The whole point of a namespace tool like the class statement is to support name inheritance
+     Happens when an object is qualified,and involves searching an attribute definition tree(1 or more    
+     namespace).every time you an expression of the form object
+
+
+
+Q3. How do you distinguish between a class object and an instance object?
+
+Ans. Every object has a type and the object types are created using classes. Instance is an object that 
+     belongs to a class. For instance list is a class in python. When we create a list. We have an instance 
+     of the list class
+
+
+
+Q4. What makes the first argument in a class’s method function special?
+
+Ans. The calling process is automatic while the receiving process is not (its explicit). This is the reason the first parameter
+     of a function in class must be the object itself. Writing this parameter as self is merely a convention. It is not a keyword
+     and has no special meaning in Python
+
+
+Q5. What is the purpose of the __init__ method?
+
+Ans. _init_" is a reseved method in python classes. It is called as a constructor in object oriented terminology. This method is called
+     when an object is created from a class and it allows the class to initialize the attributes of the class.
+
+
+Q6. What is the process for creating a class instance?
+
+Ans. The new operator requires a single, postfix argument: a call to a constructor. The name of the constructor provides the name of
+     the class to instantiate. The constructor initializes the new object. The new operator returns a reference to the object it created.
+
+
+Q7. What is the process for creating a class?
+
+Ans. In Python, a class can be created by using the keyword class, followed by the class name. The syntax to create a class is given below.
+     In Python, we must notice that each class is associated with a documentation string which can be accessed by using <class-name>. _doc_.
+
+
+Q8. How would you define the superclasses of a class?
+
+Ans. A superclass is the class from which many subclasses can be created. The subclasses inherit the characteristics of a superclass. The superclass
+     is also known as the parent class or base class. In the above example, Vehicle is the Superclass and its subclasses are Car, Truck and Motorcycle.
